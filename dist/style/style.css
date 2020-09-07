@@ -4,3 +4,9 @@
 #carouselExampleControls {
   margin-top: 10px;
 }
+
+#rodape h4,
+li,
+strong {
+  color: white;
+}
