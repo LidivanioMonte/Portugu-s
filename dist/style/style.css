@@ -10,3 +10,6 @@ li,
 strong {
   color: white;
 }
+.card-right {
+  left: 50px;
+}
