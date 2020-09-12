@@ -13,3 +13,13 @@ strong {
 .card-right {
   left: 50px;
 }
+.my-2 my-md-0 mr-md-3,
+a {
+  display: inline-block;
+  padding: 3px;
+  color: white;
+}
+.my-2 my-md-0 mr-md-3,
+a:hover {
+  color: #111010;
+}

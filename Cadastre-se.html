@@ -15,6 +15,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <link rel="stylesheet" href="dist/style/style.css"/>
+
     <!-- Google Font: Source Sans Pro -->
     <link
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
@@ -24,18 +26,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <body class="sidebar-collapse">
     <div class="wrapper">
       <!-- Navbar -->
-      <div class="d-flex flex-column fixed-top  flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <div class="d-flex flex-column fixed-top  flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow"style="background-color: #ec1212;">
         <a class="navbar-brand" href="index.html">
           <img src="/img/logo.jpg" width="50" height="50" alt="">
         </a>
         <h5 class="my-0 mr-md-auto font-weight-normal" href="index.html">Sabor Portugues</h5>
         <nav class="my-2 my-md-0 mr-md-3 ">
-          <a class="p-2 text-dark" href="Promoções.html">Promoções</a>
-          <a class="p-2 text-dark" href="#">Contatos</a>
-          <a class="p-2 text-dark" href="Cadastre-se.html">Cadastre-se</a>
+          <a href="Promoções.html">Promoções</a>
+          <a href="#">Contatos</a>
+          <a href="Cadastre-se.html">Cadastre-se</a>
          
         </nav>
-        <button type="button" class="btn btn-outline-danger"  data-toggle="modal" data-target="#exampleModal">
+        <button type="button" class="btn btn-outline-danger"  data-toggle="modal" data-target="#exampleModal" style="background-color: white;">
           Login
         </button>
       </div>
@@ -44,6 +46,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <br>
 <br>
 <br>
+<div class="content-header">
+  <div class="container-fluid" style='text-align:center'>
+    <hr/>
+    <hr/>
+   <h1 > Cadastro de Usuario </h1>  
+    <hr/>
+    <hr/>
+    <div class="row mb-2">
+
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container-fluid -->
+</div>
 
         <!-- Right navbar links -->
       </nav>
@@ -56,7 +73,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="col-lg-6">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Cadastro de usuarios</h1>
+                
               </div>
               <!-- /.col -->
             </div>
@@ -153,14 +170,45 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- /.content-wrapper -->
 
       <!-- Main Footer -->
-      <footer class="main-footer">
-        <!-- To the right -->
-        <!-- Default to the left -->
-        <strong
-          >Copyright &copy; 2020 for Lidivanio Monte & Pablo Fernandes
+      <div class="main-footer navbar-red" id="rodape">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <h4>Contato</h4>
+              <ul class="list-unstyled">
+                <li class="fab fa-whatsapp">  (75)3421-0000</li>
+                <li>
+                  <i class="fas fa-envelope">  SaborPortuguês@gmail.com</i>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>Rede Social</h4>
+              <ul class="list-unstyled">
+                <li class="fab fa-facebook-f">   Facebook </li>
+                <li> 
+                <i class="fab fa-twitter">  twitter</i>
+               </li>
+                <li>
+                  <i class="fab fa-instagram">  Instagram</i>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>Endereço</h4>
+              <ul class="list-unstyled">
+                <li>
+                  Rua Padre godinho-Centro ao lado da lachonete rei dos pasteis
+                </li>
+              </ul>
+            </div>
+          </div>
+          <strong
+        >Copyright &copy; 2020 for Lidivanio Monte & Pablo Fernandes
         </strong>
-        Todos os direitos reservados.
-      </footer>
+      Todos os direitos reservados.
+        </div>
+      </div>
     </div>
     <!-- ./wrapper -->
 
