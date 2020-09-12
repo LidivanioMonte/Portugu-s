@@ -23,3 +23,7 @@ a {
 a:hover {
   color: #111010;
 }
+.my-2 my-md-0 mr-md-3,
+h5 {
+  color: white;
+}
